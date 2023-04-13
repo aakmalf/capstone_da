@@ -189,7 +189,7 @@ def send_plot(message):
         with open('output/plot.png', 'rb') as img:
             bot.send_photo(chat_id, img)
 
-        (EXTRA CHALLENGE) Voice Message
+        #(EXTRA CHALLENGE) Voice Message
         plot_info = list(zip(
             ["total spent", "total approved conversion", "average CPC"],
             [df_plot['spent'].idxmax(), df_plot['approved_conversion'].idxmax(),df_plot['cpc'].idxmax()],
