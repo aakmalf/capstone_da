@@ -138,7 +138,7 @@ def ask_id_plot(message):
 
 def send_plot(message):
     # TO DO: chat_id (SAME AS CHECKPOINT 1)
-    chat_id = ___
+    chat_id = message.from_user.id
     selected_campaign_id = message.text
 
     if selected_campaign_id in unique_campaign:
