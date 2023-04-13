@@ -114,7 +114,7 @@ def send_summary(message):
                 END_DATE = end_date,
                 TOTAL_SPENT = f"${total_spent:,}",
                 TOTAL_CONVERSION = f"{total_conversion:,}",
-                CPC = f"{cpc:.1f}"
+                CPC = f"${cpc:.1f}"
             )
 
         bot.send_message(chat_id, summary)
