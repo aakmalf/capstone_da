@@ -73,7 +73,7 @@ df['campaign_id'] = df['campaign_id'].astype("str")
 unique_campaign = df['campaign_id'].unique()
 
 # TO DO: change the data type of ad_id, age, and gender
-___
+
 
 @bot.message_handler(commands=['summary'])
 def ask_id_summary(message):
