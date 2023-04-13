@@ -66,7 +66,7 @@ def send_about(message):
 
 # # -------------------- CHECKPOINT 2 --------------------
 # TO DO: read data and convert data type
-df = pd.read_csv("/home/akmal/Documents/algo/capstone/telebot-main/data_input/facebook_ads_v2.csv", parse_dates=["reporting_date"])
+df = pd.read_csv("/data_input/facebook_ads_v2.csv", parse_dates=["reporting_date"])
 
 # TO DO: get unique values of campaign_id
 df['campaign_id'] = df['campaign_id'].astype("str")
